@@ -38,16 +38,19 @@ int main()
 	string UserLogin;
 	cin >> UserLogin;
 	cout << "Ваш логин: " << UserLogin << endl;
+	
 	// Пароль
 	cout << "Введите Ваш пароль" << endl;
 	string UserPassword;
 	cin >> UserPassword;
 	cout << "Ваш пароль: " << UserPassword << endl;
+	
 	// Имя
 	cout << "Введите Ваше имя" << endl;
 	string UserName;
 	cin >> UserName;
 	cout << "Ваше имя: " << UserName << endl;
+	
 	// Возраст
 	cout << "Введите Ваш возраст" << endl;
 	int UserAge;
@@ -153,6 +156,7 @@ int main()
 	cout << "Введите достоинство карты" << endl;
 	string UserAnswer1;
 	cin >> UserAnswer1;
+	
 	cout << "Введите масть карты" << endl;
 	string UserAnswer2;
 	cin >> UserAnswer2;
